@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import {count, length} from './Number';
 
 const flag = true;
 const name = 'World';
-const nameTwo = 'People'
+const nameTwo = 'People';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
         {null}
         {true}
         {false}
+        <p>
+          {'count * length = '}
+          {count * length}
+        </p>
       </header>
     </div>
   );
