@@ -1,0 +1,9 @@
+.wrap {
+  margin: 0 auto;
+  width: 14%;
+}
+
+.wrap__title {
+  font-family: 'Kiwi Maru', serif;
+  text-align: center;
+}
