@@ -1,9 +1,10 @@
 .wrap {
+  background-color: rgb(238, 236, 122);
   margin: 0 auto;
   width: 14%;
 }
 
-.wrap__title {
+.title {
   font-family: 'Kiwi Maru', serif;
   text-align: center;
 }
