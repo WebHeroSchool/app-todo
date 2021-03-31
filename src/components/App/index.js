@@ -2,7 +2,7 @@ import React from 'react';
 import InputItem from '../InputItem';
 import ItemList from '../ItemList';
 import Footer from '../Footer';
-import './App.css';
+import styles from './App.module.css';
 
 const count = 3;
 
@@ -18,9 +18,9 @@ const items = [
   }
 ];
 
-const App = () => (<div className='wrap'>
-  <h1 className='wrap__title'>ToDo</h1>
-  <InputItem className='wrap__input'/>
+const App = () => (<div className={styles.wrap}>
+  <h1 className={styles.title}>ToDo</h1>
+  <InputItem className={styles.input}/>
   <ItemList items={items} />
   <Footer count={count} />
 </div>);
