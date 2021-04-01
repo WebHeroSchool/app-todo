@@ -8,13 +8,16 @@ const count = 3;
 
 const items = [
   {
-    value: 'Написать приложение'
+    value: 'Написать приложение',
+    isDone: true,
   },
   {
-    value: 'Прописать ключи'
+    value: 'Прописать ключи',
+    isDone: true,
   },
   {
-    value: 'Сходить за хлебом'
+    value: 'Сходить за хлебом',
+    isDone: false,
   }
 ];
 
